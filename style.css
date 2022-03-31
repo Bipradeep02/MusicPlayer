@@ -15,11 +15,11 @@ html{
 
 body{
     background-color: #010205;
-    zoom: 0.5;
+    transform: scale(0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 100vh;
 }
 
 .container{
@@ -417,11 +417,22 @@ audio {
 
 @media only screen and (max-width: 321px) {
     body{
-        /* background-color: #010205; */
-        zoom: 0.34;
+        transform: scale(0.34);
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 300vh;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    body{
+        transform: scale(0.34);
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    body{
+        transform: scale(0.34);
     }
 }
